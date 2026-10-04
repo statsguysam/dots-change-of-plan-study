@@ -1,0 +1,80 @@
+{
+  "episode_id": "B1-S05_pause-control-dots",
+  "project_id": "CEDAR-012",
+  "phase": "baseline_only",
+  "reviewer": "alternative_topics",
+  "reviewed_at_utc": "2026-10-04T15:22:59.805966+00:00",
+  "protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "review_sequence": "Read downloaded baseline JSON, full plan, provenance, and capture notes independently, without reading extraction or scores. Checked frozen fixture after raw artifacts.",
+  "source_evidence": [
+    "evidence/B1-S05_pause-control-dots/baseline-decision.download.json",
+    "evidence/B1-S05_pause-control-dots/baseline-plan.download.md",
+    "evidence/B1-S05_pause-control-dots/baseline-downloads.provenance.json",
+    "evidence/B1-S05_pause-control-dots/20261004T151937515876Z_baseline_submitted.txt",
+    "evidence/B1-S05_pause-control-dots/20261004T152141442098Z_baseline_done.txt"
+  ],
+  "evidence_sha256": {
+    "evidence/B1-S05_pause-control-dots/baseline-decision.download.json": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+    "evidence/B1-S05_pause-control-dots/baseline-plan.download.md": "5e628ca9cbe96966c0954e53f7f833301d2056433d5040f529c95fe7273a3334",
+    "evidence/B1-S05_pause-control-dots/baseline-downloads.provenance.json": "91694ba3e029b3e940ececd8f45e6315d81ffaa31c43f354893beced7a530816",
+    "evidence/B1-S05_pause-control-dots/20261004T151937515876Z_baseline_submitted.txt": "9ec2e09cc98d56ffd795dd365b26da6e82d5526106a988dfd01f33ccf6e6d62e",
+    "evidence/B1-S05_pause-control-dots/20261004T152141442098Z_baseline_done.txt": "9939cb0d7d7500bf156249a13f1b993362cde83d0d5ac1f6b0ced04ec2e2b999"
+  },
+  "raw_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalized_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "baseline_fields_match_frozen_key": true,
+  "findings": {
+    "selection_and_arithmetic": "Correct cheapest feasible ALD-01:40*5200+4000=212000, leaving13000 under225000. Birch224000 is feasible but dearer; Cedar200000 arrivesNovember2 afterOctober30.",
+    "event_obligations": "40 onsite,kits,seats,catering and orientation;0 remote packets; November2 event andOctober30 required arrival preserved. Event obligations remain independent of procurement.",
+    "drafts": "Actual complete current unsent v1 approval and supplier-email drafts correctly specify Alder40/212000/October30 and require owner approval before external action.",
+    "history": "Dated baseline entry preserves approved authority, constraints, selection and drafts; no previous plan exists.",
+    "consistency": "JSON, full plan and response note agree. No external action or native job creation observed. This control has no native extension."
+  },
+  "normalization_audit": {
+    "raw_next_action": "await_owner_approval",
+    "canonical_next_action": "prepare_procurement_draft",
+    "accepted": true,
+    "reason": "Both required complete correct unsent current drafts are present in the actual downloaded plan; owner approval is the next step after their completion, satisfying the frozen evidence-based equivalence."
+  },
+  "timing": {
+    "baseline_submitted": "2026-10-04T15:19:37.515876Z",
+    "baseline_done": "2026-10-04T15:21:41.442098Z",
+    "observed_interval_seconds": 123.926222,
+    "within_15minutes": true,
+    "submission_observation_call_seconds": 0.5659,
+    "conservative_interval_plus_submission_call_seconds": 124.492122,
+    "limitation": "Observed post-Send acceptance to first attachment availability includes polling and observation effects; not exact hidden execution latency. Adding the full submission call remains within15minutes."
+  },
+  "provenance_limit": "Hashes match explicitly selected supported-viewer local downloads, not independently hashed hidden cloud originals. Actual plan identifies CEDAR-012 and the supplied baseline packet.",
+  "baseline_audit_outcome": "correct_baseline_and_completed_draft_normalization_supported",
+  "discrepancies": [],
+  "post_update_reviewed": false,
+  "whole_episode_verdict": null,
+  "notes": "Baseline only. Final primary outcome requires actual update and routine probe evidence. No native extension for this control. No protected files, raw records, timestamps or shared observations modified."
+}

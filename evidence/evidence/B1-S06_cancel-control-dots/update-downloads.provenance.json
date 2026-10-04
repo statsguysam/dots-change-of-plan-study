@@ -1,0 +1,40 @@
+{
+  "episode_id": "B1-S06_cancel-control-dots",
+  "project_id": "CEDAR-007",
+  "phase": "update",
+  "captured_at_host_utc": "2026-10-04T13:35:30.970379Z",
+  "freshness_anchor": {
+    "kind": "update_accepted",
+    "at_utc": "2026-10-04T13:33:14.113279Z"
+  },
+  "source": "Exact local paths explicitly selected by operator after supported UI attachment download",
+  "files": [
+    {
+      "operator_selected_path": "[redacted-private-value-115]",
+      "resolved_source_path": "[redacted-private-value-115]",
+      "source_mtime_utc": "2026-10-04T13:35:13.383502Z",
+      "source_mtime_ns": 1791120913383502262,
+      "source_size_bytes": 360,
+      "sha256": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-116]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/update-decision.download.json",
+      "artifact_kind": "decision"
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-117]",
+      "resolved_source_path": "[redacted-private-value-117]",
+      "source_mtime_utc": "2026-10-04T13:35:15.392576Z",
+      "source_mtime_ns": 1791120915392576332,
+      "source_size_bytes": 5547,
+      "sha256": "dfed11ba1ebddd72dfa8567c87fbfb92e21c420ac17c89fb3d07e71305278f23",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-118]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/update-plan.download.md",
+      "artifact_kind": "plan"
+    }
+  ],
+  "decision_json_parseable": true,
+  "plan_contains_exact_project_id": true,
+  "limitations": "Hashes establish equality with selected local download bytes at collection, not independent cloud-original identity. mtime is a stale-file guard, not proof of product generation time. No content correctness, semantic outcome, phase completion time, or verdict is inferred."
+}

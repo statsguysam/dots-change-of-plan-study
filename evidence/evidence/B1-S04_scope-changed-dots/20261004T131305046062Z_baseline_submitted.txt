@@ -1,0 +1,1 @@
+Exact CEDAR-005 baseline.txt uploaded completely via supported filechooser, neutral filename. Frozen wrapper sent unchanged; UIshows attachment/wrapper asmessage, composerempty,Senddisabled. No intervention or extra businessmessage.

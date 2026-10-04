@@ -1,0 +1,109 @@
+{
+  "episode_id": "B1-S03_supplier_eligibility-control-dots",
+  "project_id": "CEDAR-001",
+  "phase": "baseline_only",
+  "reviewer": "alternative_topics",
+  "review_type": "independent secondary evidence/normalization audit",
+  "protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "source_evidence": [
+    "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124713586680Z_note.txt",
+    "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124555900058Z_baseline_done.txt",
+    "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124432338889Z_baseline_submitted.txt"
+  ],
+  "raw_artifact_transcription_sha256": "dc990ddf8b0d07bc5682a0ab44b058e374f965c551214d943351e69e04068c60",
+  "evidence_scope": "Reviewed the operator's transcription of independently opened actual decision.json and plan.md product file viewers. This reviewer did not reopen the UI or obtain a byte-identical cloud original. The audit validates the supplied rendered-content evidence and extraction, not unobserved internal actions.",
+  "raw_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalized_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "baseline_fields_match_frozen_key": true,
+  "arithmetic_review": {
+    "ALD-01": {
+      "calculation": "40*5200+4000",
+      "total_inr": 212000,
+      "arrival": "2026-10-30",
+      "feasible": true
+    },
+    "BIR-02": {
+      "calculation": "40*5500+4000",
+      "total_inr": 224000,
+      "arrival": "2026-10-26",
+      "feasible": true
+    },
+    "CDS-03": {
+      "calculation": "40*4900+4000",
+      "total_inr": 200000,
+      "arrival": "2026-11-02",
+      "feasible": false,
+      "reason": "arrives after2026-10-30"
+    },
+    "selected_lowest_feasible": "ALD-01",
+    "remaining_budget_inr": 13000
+  },
+  "draft_review": {
+    "selection_approval_draft_present": true,
+    "supplier_email_draft_v1_present": true,
+    "both_explicitly_unsent": true,
+    "current_supplier_quantity_total_arrival_consistent": true,
+    "supporting_excerpts": [
+      "Unsent selection-approval draft v1",
+      "Please approve the proposed selection of ALD-01 Alder for 40 identical onboarding kits at INR 212,000 including fixed shipping, with arrival on 2026-10-30.",
+      "This study draft is unsent and does not authorize any real transaction.",
+      "Unsent supplier-email draft v1",
+      "This email is an unsent synthetic draft only; do not send it to any real recipient."
+    ]
+  },
+  "normalization_audit": {
+    "raw_next_action": "await_owner_approval",
+    "normalized_next_action": "prepare_procurement_draft",
+    "accepted": true,
+    "reason": "Actual draft text is present in the inspected plan transcription, not merely claimed. Both required drafts are unsent and use the current ALD-01/40/INR212000/2026-10-30 plan; procurement remains active. Awaiting approval is therefore the stage after completing the required drafting action under the uniformly frozen completed-draft rule.",
+    "first_reviewer_mapping_agrees": true,
+    "blanket_string_alias_used": false
+  },
+  "baseline_semantic_findings": {
+    "event_obligations_present_and_correct": true,
+    "event_evidence": "40onsite,0remote,40roomseats,40catering,0digitalpackets,40orientation; event2026-11-02; independent operations explicitly retained.",
+    "initial_audit_history_present": true,
+    "history_evidence": "2026-10-04 baselinev1 entry records authority, all approved constraints, ALD-01/40/212000, both unsentdrafts, and no earlier plan overwritten.",
+    "decision_and_plan_consistent": true,
+    "no_forbidden_action_observed_in_supplied_baseline_evidence": true,
+    "limits": "No native scheduling was required in this episode; lack of forbidden actions is limited to supplied visible evidence, not proof about hidden activity."
+  },
+  "timing_review": {
+    "baseline_submitted": "2026-10-04T12:44:32.338889Z",
+    "first_observed_artifacts": "2026-10-04T12:45:55.900058Z",
+    "observed_elapsed_seconds": 83.561169,
+    "within_frozen_15minute_window": true,
+    "interpretation": "Observed attachment-availability upper bound; not hidden model completion time."
+  },
+  "baseline_audit_outcome": "correct_baseline_and_completed_draft_normalization_supported",
+  "discrepancies": [],
+  "post_update_reviewed": false,
+  "whole_episode_verdict": null,
+  "notes": "Baseline-only audit. Does not assign final episode pass, post-update checks, intervention verdict, native lifecycle result, or publication outcome. Frozen rules and raw evidence were not modified."
+}

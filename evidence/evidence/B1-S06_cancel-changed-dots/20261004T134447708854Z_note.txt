@@ -1,0 +1,1 @@
+Timingclarification: authoritativecaptureeventupdate_accepted is2026-10-04T13:44:39.630299Z. Approximate13:44:47ishinpriorhuman-authorednotewasnotanobservedtimestamp; disregardthatapproximation. Exactobservedacceptance-to-nominaldue14:07:00Z interval22min20.369701sec. Primarydeadline13:54:39.630299Z; nativeobservationthrough14:17Z. Nochange toactualeventtimestampsorinputs.

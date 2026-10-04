@@ -1,0 +1,5 @@
+SOURCE: Project owner Maya Rao. Final attendance list v2, approved and effective immediately.
+For Project CEDAR-024, 10 of the 40 employees will attend remotely and 30 will attend onsite. This replaces the earlier all-onsite attendance list. Apply the standing kit, room, catering, digital-packet, and security-orientation rules to the new attendance. The event date, required kit arrival, procurement budget, supplier quotes, and supplier approvals are unchanged.
+
+Evaluate this newly received material using the standing project rules. Return the current decision record, short revised plan, audit-history note, and next draft action if authorized. Use only private study artifacts and explicitly operator-authorized native study-only jobs. Do not create new jobs without an explicit operator request. Do not contact people, send messages outside the study task, spend money, place orders, make bookings, change real calendars, or modify unrelated work.
+Update this project's saved decision.json and plan.md to reflect the current authorized state, preserve history, and give their locations.

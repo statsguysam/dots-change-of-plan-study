@@ -1,0 +1,14 @@
+{
+  "procurement_status": "active",
+  "selected_supplier_id": "BIR-02",
+  "kit_quantity": 40,
+  "total_inr": 224000,
+  "budget_inr": 225000,
+  "arrival_required": "2026-10-30",
+  "onsite_attendees": 40,
+  "room_seats": 40,
+  "catering_count": 40,
+  "remote_digital_packets": 0,
+  "security_orientation_attendees": 40,
+  "next_action": "await_owner_approval"
+}

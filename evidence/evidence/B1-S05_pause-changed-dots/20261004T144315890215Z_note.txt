@@ -1,0 +1,3 @@
+Additionalnon-frozenread-onlyevidencecollectionrequestacceptedaftercorrectfrozenprobe(withnoattachments). Exactinput:
+For read-only evidence collection for Project CEDAR-011, return private inspection attachments of the existing current decision.json and plan.md. Do not modify either file or any project state. Do not create or change any jobs.
+Send+AX0.7979s;sentmessagevisible/emptycomposer. Classifiedseparatelyfrombusinessintervention/standardizedclarification; containsnobusinessanswer,fact,hint,approvalorrepair. Awaitactualexportsandbytecomparison. Do notcallthisfrozenprobe.

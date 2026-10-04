@@ -1,0 +1,14 @@
+{
+  "procurement_status": "blocked",
+  "selected_supplier_id": null,
+  "kit_quantity": 40,
+  "total_inr": null,
+  "budget_inr": 205000,
+  "arrival_required": "2026-10-30",
+  "onsite_attendees": 40,
+  "room_seats": 40,
+  "catering_count": 40,
+  "remote_digital_packets": 0,
+  "security_orientation_attendees": 40,
+  "next_action": "request_owner_decision"
+}

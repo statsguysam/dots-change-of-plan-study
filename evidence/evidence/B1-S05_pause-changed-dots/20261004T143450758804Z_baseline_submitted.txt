@@ -1,0 +1,1 @@
+Onlyneutraldata/uploads/CEDAR-011/baseline.txt uploaded,completebaseline.txtvisible,Sendenabled. Fixedbaselinewrapperunchanged. Sentmessage+attachmentvisible,emptycomposer; Send+AX5.8046s. No futureupdate/operatorpack/answerkey uploaded. NativejobsetupwilloccurONLYafteractualbaselineinspection,separateexplicitsetuprequest. C010updatedactualfilesinspectedbeforestart.

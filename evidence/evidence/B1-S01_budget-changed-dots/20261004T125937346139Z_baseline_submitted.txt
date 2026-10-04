@@ -1,0 +1,1 @@
+Uploaded exact data/uploads/CEDAR-003/baseline.txt through supported native filechooser, upload completed. Sent unchanged frozen wrapper. Actual UI shows baseline.txt and wrapper as message, composer empty, Send disabled. No intervention, new schedule, purchase, or other business instruction.

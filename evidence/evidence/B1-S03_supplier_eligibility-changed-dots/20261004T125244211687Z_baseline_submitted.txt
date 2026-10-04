@@ -1,0 +1,1 @@
+CUA tab5 actual Dots conversation: data/uploads/CEDAR-002/baseline.txt uploaded to completion, neutral filename baseline.txt visible. Exact frozen baseline wrapper sent; UI message contains attachment/wrapper, composer empty and Send disabled. No extra business messages or coaching. Host capture immediately after UI accepted observation.

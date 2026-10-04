@@ -1,0 +1,1 @@
+Exact frozen B1-S04_scope-changed-dots.update.txt submitted: Mayaapprovedfinalattendancev2 forCEDAR-005,30onsite10remote, replaces40onsite; applystandingdependentobligations, otherconstraintsunchanged. ActualUIshowsfullupdateandstandinginstructions,emptycomposer,disabledSend. ActualbaselineJSON/plan downloaded/readbeforeupdate. No hints, clarifications, or otherbusinessmessages.

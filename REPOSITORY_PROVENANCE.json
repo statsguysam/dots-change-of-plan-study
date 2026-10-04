@@ -1,0 +1,7 @@
+{
+  "prepared_at_utc": "2026-10-04T16:12:39.838783+00:00",
+  "repository_name": "dots-change-of-plan-study",
+  "evidence_archive_sha256": "85bf1f506c5bf40d2617367528afbd0dc4826e537b27d1cf6bc8f43a32fc6ced",
+  "evidence_policy": "The evidence directory preserves every sanitized v1 archive file byte for byte. Historical publication flags refer to the time of that export. GitHub publication is not independent authentication of original cloud sessions.",
+  "presentation_policy": "Reader-facing README and report links prepared for GitHub; PDF, PPTX and chart unchanged from the audited release. No experiment records or outcomes altered."
+}

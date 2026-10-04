@@ -1,0 +1,1 @@
+Exact frozen draft-revision v2 message submitted; rendered sent message verified and composer empty. Baseline actual downloaded JSON and plan inspected: ALD-01, 40 kits, INR212000, active, both correct unsent v1 drafts, event40. Current phase replaces only the supplier email draft; no native jobs exist in this episode.

@@ -1,0 +1,52 @@
+EXCLUDED NATIVE SCHEDULING SETUP — 2026-10-04
+Product: actual Dots cloud instance, existing ChatGPT Pro account (tier observed in profile menu).
+Interface: Dots conversation and native Scheduled > Your dot UI.
+No additional app connections, purchases, or external messages.
+
+12:11 UTC (UI read receipt 17:41 Asia/Kolkata): requested two one-time native jobs for 12:30 UTC / 18:00 Asia/Kolkata, both in PRACTICE-DOTS-SCHEDULE.
+BLUE: write BLUE_DONE to blue.txt and privately attach it to the same task.
+RED: write RED_DONE to red.txt and privately attach it to the same task.
+Each job instructed to use only that synthetic folder, with no personal files/apps, public publishing, purchases, other schedule changes, or proactive follow-ups.
+
+Dots returned native identifiers:
+BLUE [redacted-private-value-120]
+RED [redacted-private-value-119]
+It stated exact_schedule, enabled true, DTSTART=20261004T123000, timezone Etc/UTC, no recurrence rule; last_run_time and next_run_time null.
+
+Independent native UI inspection before cancellation:
+Scheduled > Your dot listed Write BLUE practice file and Write RED practice file, both Today 6 PM.
+Opened BLUE's native job detail. Its URL contained automationId=[redacted-private-value-120], automationSource=cloud.
+The detail displayed the actual private-folder instruction and "Your task is scheduled. Its next run is Oct 4, 12:30 PM UTC."
+The task card displayed Oct 4, 2026, 6:00 PM.
+
+12:14 UTC (UI read receipt 17:44 Asia/Kolkata): sent cancellation in the Dots conversation:
+Cancel only BLUE permanently by disabling its registration; retain audit history. Keep RED scheduled unchanged for 12:30 UTC. Apply only to these study jobs.
+
+Dots reported BLUE is_enabled=false with its record retained; RED is_enabled=true unchanged; both last_run_time=null.
+
+Independent native UI inspection after cancellation:
+Reloaded BLUE's native job detail. The BLUE card explicitly displayed "Paused".
+Returned to Scheduled > Your dot. The upcoming native list displayed only Write RED practice file, Today 6 PM, with Show more for other entries.
+Opened RED's native detail by its visible list item; URL contained automationId=[redacted-private-value-119], automationSource=cloud.
+
+Observation is ongoing. Do not treat these pre-due observations as successful execution/cancellation through the due window. RED execution, BLUE nonexecution, and post-due native history remain to be inspected.
+
+12:30:14–12:30:20 UTC observation, just after due time:
+Native Scheduled > Your dot list displayed BLUE: Paused; RED: Completed.
+The Dots conversation simultaneously displayed Using computer / Thinking; no RED attachment had appeared in the inspected conversation yet.
+The scheduler's Completed label alone is therefore not being used as file-output verification. Post-due window remains open through 12:40 UTC.
+
+Excluded input-transport check (part of artifact setup): uploaded data/practice-input.txt through the native file chooser. The UI read receipt was 17:49 Asia/Kolkata, and Dots returned blue_blocks: 3; red_blocks: 2; status: draft, matching that practice file. No Cedar baseline or future condition was supplied. Scored baseline packets will use neutral filename baseline.txt and exact frozen content.
+
+12:35–12:36 UTC: Dots response displayed an Open red.txt attachment and claimed it had saved RED_DONE. The operator opened the attachment in the product file viewer. The actual viewer container labelled red.txt showed exactly RED_DONE. This verifies the privately exported file contents, not byte identity with the unexposed cloud original. No blue.txt attachment was present.
+
+12:37–12:38 UTC: Native BLUE latest-history navigation returned the retained job detail with Paused on its card and no execution response visible. The native sidebar still displayed BLUE Paused and RED Completed. Observation continues through12:40UTC.
+
+12:40 UTC, at end of due+10-minute observation window: operator reloaded the native BLUE detail. Card still shows Paused; history contains the original creation instruction and no execution output. No BLUE attachment appeared in the Dots conversation. RED file had been independently read as RED_DONE. A scoped post-window inspection/cleanup request was submitted, asking Dots to report existence/contents and actual last-run/enabled states, then disable only these two study jobs with records retained.
+
+Post-window Dots response (observed approx12:41UTC, user request read18:10IST):
+"Verified in PRACTICE-DOTS-SCHEDULE: blue.txt does not exist. red.txt contains exactly RED_DONE. Actual native state after disabling both: BLUE [redacted-private-value-120]: is_enabled=false; last_run_time=null; next_run_time=null. RED [redacted-private-value-119]: is_enabled=false; last_run_time=2026-10-04T12:26:00.996487+00:00; next_run_time=null. The scheduler dispatched RED early; the file was written after12:30UTC. Both records and their history remain retained, with no future run armed. No files or records were deleted."
+These last_run values and folder nonexistence are product-reported, not independent low-level telemetry. NativeUI BLUEPaused and REDCompleted, plus actually viewedRED_DONE, are the independent product-surface observations. Exact dispatch/file-write timestamps are not independently established.
+Before protocol freeze, native timing increased from proposedrequest+20min/minimum12minupdatelead to request+25min/minimum18minupdatelead, because the product-reported dispatchprecedednominaldueby4minutes. This permits10minutesprimaryupdateplus8minutesnominalmargin (about4minutes beyond reported earlydispatch); it doesnot prove or guarantee a universal schedulerdispatchoffset. Due+10minuteobservation remainsunchanged.
+
+Post-cleanup independentREDdetail inspection: nativeUIshows creation/audit entryToday6:10PM, message "Your task is saved. You can review its schedule and settings in task details.", and a disabled buttonWriteREDpracticefile labelledCompleted. BLUEremainsPaused. Neither has an observed future armedrun. Both records retained. Preflightqualifiednativefilewritingandscopeddisableforthisconfiguration; excludedfromscoredresults.

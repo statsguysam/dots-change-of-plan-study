@@ -1,0 +1,216 @@
+{
+  "study_id": "dots-cedar-adaptation-v1",
+  "status": "ready_for_freeze",
+  "products": [
+    "dots"
+  ],
+  "seed": 20261004,
+  "additional_budget_cap_inr": 5000,
+  "additional_spent_inr": 0,
+  "excluded_setup_trials": 2,
+  "minimum_balanced_episodes": 12,
+  "target_balanced_episodes": 24,
+  "repetitions": 2,
+  "primary_track": "saved_artifact_direct_update",
+  "execution_context": {
+    "product_surface": "actual Dots cloud",
+    "agent_scope": "one persistent Dot",
+    "conversation_scope": "one reused conversation",
+    "episode_isolation": "unique project IDs, complete baseline packets, separate private artifact destinations; study-job cleanup between episodes",
+    "carryover_limitation": "Prior scenario content and patterns can remain in conversation and persistent memory; episodes are not independent context resets."
+  },
+  "timing": {
+    "provisional": false,
+    "baseline_timeout_minutes": 15,
+    "update_timeout_minutes": 10,
+    "schedule_grace_minutes": 10,
+    "schedule_due_after_request_minutes": 25,
+    "minimum_update_lead_minutes": 18,
+    "schedule_due_rounding": "up_to_next_whole_utc_minute",
+    "baseline_clock_start": "UI acceptance after sending completed baseline upload plus fixed wrapper; excludes local/upload preparation",
+    "notes": "Set absolute due at operator setup requestUTC+25minutes, roundedupnextwholeminute; inspect registration then update with at least18minutes before due. Updatewindow10minutes ends at least8minutes before nominal due, ~4minuteextra margin relative to preflight product-reported early last-run timestamp. Record actual intervals; no guarantee of hidden dispatch timing and no silentrescheduling.",
+    "pre_freeze_amendment": {
+      "basis": "Excluded native preflight cleanup response reported RED last_run_time=2026-10-04T12:26:00.996487+00:00 for a12:30UTC registered due time and described early dispatch.",
+      "evidence_type": "product-reported hidden timestamp; operator independently observed Completed around12:30 and actualRED_DONEfile at12:35–12:36, not exact dispatch/write time",
+      "previous_rule": {
+        "schedule_due_after_request_minutes": 20,
+        "minimum_update_lead_minutes": 12
+      },
+      "final_rule": {
+        "schedule_due_after_request_minutes": 25,
+        "minimum_update_lead_minutes": 18,
+        "update_timeout_minutes": 10,
+        "schedule_grace_minutes": 10
+      },
+      "scope": "beforefreeze/beforeanyscoredrun; uniform for both planned native observations; timingbuffer is conservative, not proof of no earlydispatch",
+      "evidence": [
+        "evidence/native-preflight.txt"
+      ]
+    }
+  },
+  "freeze_requirements": {
+    "dots_enabled": true,
+    "two_setup_trials_completed": true,
+    "artifact_route_verified": true,
+    "timing_and_clarifications_finalized": true,
+    "lifecycle_scope_finalized": true
+  },
+  "access": {
+    "dots": {
+      "status": "enabled",
+      "url": "https://chatgpt.com/dots/home",
+      "notes": "Dots cloud enabled. Excluded artifact and input-transport practice completed after private-export clarification; actual attachments independently inspected. Native preflight completed through 2026-10-04T12:40:00Z and supports the declared study-job route."
+    }
+  },
+  "setup": {
+    "artifact": {
+      "status": "completed_after_standardized_clarification",
+      "scored": false,
+      "notes": "Copied evidence documents private export clarification and independent inspection."
+    },
+    "native_schedule": {
+      "status": "completed_supported",
+      "scored": false,
+      "evidence": [
+        "evidence/native-preflight.txt"
+      ],
+      "due_at_utc": "2026-10-04T12:30:00Z",
+      "observation_end_utc": "2026-10-04T12:40:00Z",
+      "observed_disabled_job_status": "Paused",
+      "observed_retained_job_status": "Completed",
+      "retained_file_verification": "Actual red.txt viewer independently opened at12:35–12:36UTC and contained RED_DONE.",
+      "disabled_job_evidence": "BLUE native detail reloaded at12:40UTC still Paused; retained original creation/history had no execution output; noBLUEattachmentobserved.",
+      "scope_limit": "Bounded evidence of disabling through the due+10minute window, not irreversible deletion or a guarantee the job can never run.",
+      "cleanup_status": "completed_reported_disable_and_independently_inspected_native_details_at12:42UTC",
+      "reported_cleanup_metadata": {
+        "BLUE": {
+          "is_enabled": false,
+          "last_run_time": null,
+          "next_run_time": null
+        },
+        "RED": {
+          "is_enabled": false,
+          "last_run_time": "2026-10-04T12:26:00.996487+00:00",
+          "next_run_time": null
+        },
+        "provenance": "Dots cleanup response, not an independent inspection of hidden fields"
+      },
+      "cleanup_inspection": "At12:42UTC operator inspected RED native detail showing the post-window Today6:10PM audit entry and saved-task response with Completed status/control; BLUE retained Paused. Dots reported both is_enabled=false/no next run. Preserve reported hidden fields vs visible UI distinction."
+    }
+  },
+  "lifecycle_extension": {
+    "status": "supported",
+    "conditions": [
+      "changed"
+    ],
+    "blocks": [
+      1
+    ],
+    "families": [
+      "pause",
+      "cancel"
+    ],
+    "planned_observations": 2,
+    "retained_event_job_per_observation": true,
+    "concurrent_observations": false,
+    "separate_from_primary": true,
+    "notes": "Qualified from excluded native preflight through2026-10-04T12:40:00Z. Only block-one changed pause/cancel episodes receive native setup, sequentially; no native controls or block-two extension. Report two illustrative actual-job outcomes separately; no native false-cancellation rate or population reliability claim. Setup trials are excluded. Disabled/Paused is bounded inactive-state evidence, not irreversible deletion."
+  },
+  "publication_scope": "One Dots configuration, one synthetic workflow, six related scenario families; no competitor comparison or ranking.",
+  "notes": "Ready for freeze after completed supported preflight and finalized scope/timing/clarification rules. Original dots-muse-study untouched. Zero scored episodes and INR0additional spending at readiness. Cleanup response reported bothjobsdisabled and post-cleanup native details were independently inspected at12:42UTC. This edit does not itself freeze the study.",
+  "input_transport": {
+    "status": "verified_excluded_artifact_setup_extension",
+    "baseline": "uploaded UTF-8 file containing complete frozen Message 1",
+    "baseline_upload_path_template": "data/uploads/{project_id}/baseline.txt",
+    "visible_baseline_filename": "baseline.txt",
+    "project_id_policy": "opaque CEDAR-001 style IDs; no family or condition cues",
+    "baseline_wrapper": "Read the attached baseline packet and carry out its instructions for this study project. Use only this packet and this project’s private working folder. Return the requested saved artifacts as private attachments in this task. Do not read connected apps or personal files. Do not create schedules unless the operator separately requests this project’s study jobs.",
+    "update": "exact frozen Message 2 as direct text",
+    "routine_probe": "exact frozen probe as direct text",
+    "integrity": "SHA-256 of complete baseline packet and exact body comparison; never upload future updates, answer keys, or operator-only messages filenames",
+    "verification": "Excluded synthetic practice attachment was read correctly; this extends the artifact setup, not the scored sample.",
+    "consistency": "same verified baseline-file/wrapper and direct-text update/probe route in every scored episode"
+  },
+  "action_normalization": {
+    "policy_version": "1.0_predeclared_completed_draft_equivalence",
+    "canonical_tokens": [
+      "prepare_procurement_draft",
+      "request_owner_decision",
+      "await_owner_resume",
+      "continue_event_only",
+      "replace_procurement_draft"
+    ],
+    "additional_allowed_raw_tokens": [
+      "await_owner_approval"
+    ],
+    "ordinary_draft_mapping": {
+      "raw": "await_owner_approval or semantically equivalent prose",
+      "canonical": "prepare_procurement_draft",
+      "requires": "active procurement; independently inspected current unsent selection-approval and supplier drafts; no prohibited action"
+    },
+    "replacement_draft_mapping": {
+      "raw": "await_owner_approval or semantically equivalent prose",
+      "canonical": "replace_procurement_draft",
+      "requires": "active procurement; independently inspected unsent v2 in required template; v1 retained as superseded history; no prohibited action"
+    },
+    "prohibitions": [
+      "no unconditional string alias",
+      "no inferred draft from expected answer",
+      "no mapping that excuses absent/stale/wrong draft",
+      "no substitution for blocked owner-decision request or paused/cancelled state"
+    ],
+    "review": "retain raw text, normalized token, artifact evidence and rationale; independently audit every completed-draft mapping; uniform across all baseline/update checkpoints",
+    "missing_evidence": "observed absent or incorrect required draft fails; inaccessible evidence remains unscored, never assumed correct"
+  },
+  "account_configuration": {
+    "recorded_date": "2026-10-04",
+    "product": "Dots cloud",
+    "account_tier": {
+      "value": "ChatGPT Pro",
+      "verification": "independently observed in account UI"
+    },
+    "model_deployment": {
+      "value": null,
+      "status": "unknown",
+      "onboarding_description": "GPT-6 Astra",
+      "notes": "Onboarding wording is recorded as a product description, not independent verification of the exact model/version routed for any scored episode."
+    },
+    "time_zone": "Asia/Kolkata",
+    "country_or_region": {
+      "value": null,
+      "status": "not_independently_verified",
+      "notes": "Do not infer country from timezone, account name, or another product's regional access message."
+    },
+    "execution_surface": "one persistent cloud Dot and one reused conversation",
+    "memory": {
+      "changed_for_study": false,
+      "status": "persistent memory settings left unchanged",
+      "contents_inspected": false,
+      "limitation": "Conversation and agent memory can carry prior scenario information; unique project IDs are not memory isolation."
+    },
+    "artifact_access": {
+      "route": "project-specific private cloud working folder plus private task attachments",
+      "verified": "synthetic baseline/updated practice files independently inspected; attachment input practice read correctly"
+    },
+    "native_tools": {
+      "registration_and_status_ui": "observed during excluded preflight",
+      "execution_evidence": "Retained RED job displayed Completed; actual RED_DONE export was independently opened. Through12:40UTC due+10min end, BLUE remained Paused with no execution response orBLUEattachmentobserved. See excluded native-preflight log; bounded evidence only.",
+      "exact_capability_limit": "Preserve native UI status labels and distinguish disabled/Paused from deletion or permanent cancellation."
+    },
+    "connected_apps": {
+      "added_during_onboarding": false,
+      "study_access": "No connected-app or personal-file reading authorized; use only supplied packet and project-private files.",
+      "existing_account_inventory": "not independently inventoried for this study"
+    },
+    "quota_or_credit_balance": {
+      "value": null,
+      "status": "not independently recorded"
+    },
+    "notes": "Metadata records observed configuration, including excluded preflight support. Exact model routing remains unknown; no scored outcome is inferred.",
+    "evidence": [
+      "evidence/account-config.txt",
+      "evidence/dots-artifact-preflight.txt",
+      "evidence/native-preflight.txt"
+    ]
+  }
+}

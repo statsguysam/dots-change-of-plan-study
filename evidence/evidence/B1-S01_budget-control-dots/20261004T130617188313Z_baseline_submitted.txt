@@ -1,0 +1,1 @@
+CEDAR-004 exact neutral baseline.txt uploaded through native filechooser, upload completed. Frozen wrapper sent unchanged. Actual UI shows attachment and wrapper as message, composer empty and Send disabled. No other business instruction, clarification, or coaching.

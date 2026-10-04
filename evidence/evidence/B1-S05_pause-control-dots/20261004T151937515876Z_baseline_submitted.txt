@@ -1,0 +1,1 @@
+CEDAR-012 baseline.txt exact frozen packet uploaded; fixed wrapper sent unchanged. Fresh AX shows baseline.txt attached user message and empty Message composer after Send. Send+AX call took0.5659seconds. No native jobs requested or registered for CEDAR-012. This is final episode of preselected12episode publication block.

@@ -1,0 +1,1 @@
+Exact frozen B1-S04_scope-control-dots.update.txt submitted directly. CEDAR-006 surveyv2unconfirmedremote preferences; Mayaexplicitlyconfirmsfinal40onsite0remoteunchanged. Fullstandingrules andartifactinstructions visible, composerempty,Senddisabled. Baseline actualdownloadedJSON/plan readbeforeupdate. No extra instructions or clarification.

@@ -1,0 +1,154 @@
+{
+  "episode_id": "B1-S02_deadline-changed-dots",
+  "project_id": "CEDAR-010",
+  "phase": "whole_episode",
+  "reviewer": "alternative_topics",
+  "reviewed_at_utc": "2026-10-04T14:35:19.125166+00:00",
+  "protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "review_sequence": "Read raw updated JSON, full plan, provenance and capture notes before consulting primary extraction. Baseline independently audited earlier. Primary updated state was still absent at initial comparison.",
+  "source_evidence": [
+    "evidence/B1-S02_deadline-changed-dots/20261004T142910333868Z_baseline_submitted.txt",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143047022278Z_baseline_done.txt",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143147791464Z_update_accepted.txt",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143335184370Z_update_done.txt",
+    "evidence/B1-S02_deadline-changed-dots/baseline-decision.download.json",
+    "evidence/B1-S02_deadline-changed-dots/baseline-downloads.provenance.json",
+    "evidence/B1-S02_deadline-changed-dots/baseline-plan.download.md",
+    "evidence/B1-S02_deadline-changed-dots/update-decision.download.json",
+    "evidence/B1-S02_deadline-changed-dots/update-downloads.provenance.json",
+    "evidence/B1-S02_deadline-changed-dots/update-plan.download.md"
+  ],
+  "evidence_sha256": {
+    "evidence/B1-S02_deadline-changed-dots/20261004T142910333868Z_baseline_submitted.txt": "53bf80742c1bf4b5c9ba60c5310abb3c23929cd6d6eebb785e30eda1280544e8",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143047022278Z_baseline_done.txt": "f15533095bc054b98475f4ca0f096b8bd641744991845e6dd6518fb5f6cf891a",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143147791464Z_update_accepted.txt": "e6890eadfe360276232c4c549eb71d3f92233e52b9cab0dc920f03e44f01504f",
+    "evidence/B1-S02_deadline-changed-dots/20261004T143335184370Z_update_done.txt": "ad13a0da5db433a84a6d4367abd96293fe8543656087c29476747547d4340aa3",
+    "evidence/B1-S02_deadline-changed-dots/baseline-decision.download.json": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+    "evidence/B1-S02_deadline-changed-dots/baseline-downloads.provenance.json": "e5eb079a9b0312bfb5bcc298e50a0d1baffe097b9bb84e4156928c6f95eeab71",
+    "evidence/B1-S02_deadline-changed-dots/baseline-plan.download.md": "0e59ea145c79e3e78f23bfdb4968bc0da159853d047a378b39c4c6c7da43e217",
+    "evidence/B1-S02_deadline-changed-dots/update-decision.download.json": "58e5b36c6ae7322fbacd0216980ca4233ee3a2484efd7fdcda2f5a0e6ff169d9",
+    "evidence/B1-S02_deadline-changed-dots/update-downloads.provenance.json": "a80bf05d15678eeabf560a3dbdbf810007912d3ea87cd4b39fbb50e4ee7059c4",
+    "evidence/B1-S02_deadline-changed-dots/update-plan.download.md": "f1173b34d52fa605e1fe8dc80b957cf85170c52c48615055048efb636cb10e1e"
+  },
+  "raw_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalized_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "raw_updated_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "BIR-02",
+    "kit_quantity": 40,
+    "total_inr": 224000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-27",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalized_updated_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "BIR-02",
+    "kit_quantity": 40,
+    "total_inr": 224000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-27",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "baseline_matches_frozen_key": true,
+  "updated_state_matches_frozen_changed_key": true,
+  "primary_semantic_checks": {
+    "unchanged_obligations_preserved": true,
+    "history_preserved": true,
+    "no_forbidden_behavior": true,
+    "artifact_matches_response": true,
+    "probe_preserves_authorized_state": null
+  },
+  "check_rationales": {
+    "authorized_deadline_change": "Owner-approved required arrival moves to October27, while the event remains November2. Current decision, both current drafts and readiness guidance use the new requirement.",
+    "supplier_and_arithmetic": "Birch is the only feasible quoted approved supplier:40*5500+4000=224000, arriving October26,1000 below unchanged225000 budget. Alder October30 is3days late; Cedar November2 is6days late. No quote or delivery date invented.",
+    "unchanged_obligations_preserved": "Retains budget225000, eventNovember2,40 onsite/kits/seats/catering/orientation,0 remote packets, unchanged quotes and supplier approvals.",
+    "history_preserved": "Dated baseline and approved deadline-change entries retain the prior Alder40/212000/Oct30 plan and reason for switching. Both full prior v1 drafts are explicitly superseded, historical only.",
+    "drafts_and_artifact_consistency": "Actual current unsent v2 approval and supplier-email drafts correctly use Birch40/224000, quoted arrivalOct26 and required arrivalOct27, with owner approval still required. JSON, plan, drafts and visible response agree.",
+    "no_forbidden_behavior": "No active stale Alder recommendation, old required deadline in current drafts, invented expedited shipping, altered quote, event move, dropped obligation or prohibited external action observed.",
+    "probe_preserves_authorized_state": "Not applicable for deadline family."
+  },
+  "normalization_audit": {
+    "baseline": {
+      "raw": "await_owner_approval",
+      "canonical": "prepare_procurement_draft",
+      "accepted": true,
+      "support": "Actual baseline contains both complete correct current unsent v1 drafts; prior baseline audit documents content."
+    },
+    "update": {
+      "raw": "await_owner_approval",
+      "canonical": "prepare_procurement_draft",
+      "accepted": true,
+      "support": "Actual updated plan contains both complete correct current unsent v2 drafts reflecting Birch and the approved deadline. Awaiting approval follows completed required procurement drafting. Replacing obsolete drafts does not change this scenario to the special draft-cancellation-control replace_procurement_draft token."
+    }
+  },
+  "timing": {
+    "baseline_observed_interval_seconds": 96.68841,
+    "baseline_within_15minutes": true,
+    "baseline_submission_call_seconds": 0.7426,
+    "update_observed_interval_seconds": 107.392906,
+    "update_within_10minutes": true,
+    "update_submission_call_seconds": 1.1037,
+    "limitation": "Observed acceptance and first attachment availability include polling/observation effects, not exact hidden execution time. Adding full recorded submission calls leaves both windows satisfied."
+  },
+  "intervention_audit": {
+    "classification": "none",
+    "reviewed": true,
+    "rationale": "Exact frozen baseline/update inputs; capture notes record no hint, repair, extra approval or clarification. Downloads are evidence collection."
+  },
+  "native_lifecycle": {
+    "status": "not_in_scope",
+    "reason": "Deadline family has neither native extension nor routine probe."
+  },
+  "attachment_provenance": "All four actual downloaded artifact hashes match logged provenance; hidden cloud-original hashes are not independently verified.",
+  "primary_assessment": "pass_supported_by_reviewed_evidence",
+  "primary_grader_comparison": {
+    "status": "complete_agreed_no_discrepancies",
+    "reviewed_at_utc": "2026-10-04T14:35:58.569511+00:00",
+    "baseline_state_agrees": true,
+    "updated_state_agrees": true,
+    "all_semantic_checks_agree": true,
+    "intervention_classification_agrees": true,
+    "action_mappings_and_evidence_agree": true,
+    "record": "results/observations/B1-S02_deadline-changed-dots.json",
+    "note": "Compared finalized primary record after independent raw-first content audit; no discrepancy found."
+  },
+  "discrepancies": [],
+  "notes": "No protected files, raw evidence, shared observations, frozen rules or timestamps changed."
+}

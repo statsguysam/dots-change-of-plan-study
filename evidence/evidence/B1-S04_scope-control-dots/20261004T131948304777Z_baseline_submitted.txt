@@ -1,0 +1,1 @@
+CEDAR-006 baseline.txt uploaded completely, neutralfilename, frozenwrapper submittedunchanged. Actual UI showsattachment/wrapperasmessage,emptycomposer,Senddisabled. No extra instructions or intervention.

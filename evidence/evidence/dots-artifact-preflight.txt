@@ -1,0 +1,51 @@
+EXCLUDED SETUP TRIAL — PRACTICE-DOTS-ARTIFACT
+Status: completed after one setup clarification; both baseline and revised attachments independently inspected. Excluded from scored results.
+Date: 2026-10-04. All times below are UI display times, Asia/Kolkata, minute resolution.
+Interface: actual Dots workspace, its cloud computer. No additional plugins connected.
+No Cedar scored fixtures sent. No native schedules requested.
+
+INITIAL MESSAGE — UI read receipt 5:29 PM:
+This is a synthetic file-editing practice task, excluded from a later benchmark. For this task use only the information in this message and your own private cloud working folder; do not read connected email, personal files, or other apps. Create a private study folder named PRACTICE-DOTS-ARTIFACT. Save state.json with exactly {"blue_blocks":4,"red_blocks":2,"status":"draft"}. Save note.md explaining those values. Do not contact anyone or change anything outside this folder. Do not create schedules or start proactive follow-ups. Return the artifact locations and links that let me inspect the actual saved files.
+
+DOTS RESPONSE:
+Created and verified both files in my private cloud folder: [redacted-path-013]
+state.json contains exactly {"blue_blocks":4,"red_blocks":2,"status":"draft"}
+note.md explains the counts and draft status
+Inspectable attachment links require uploading outside that folder, so I haven’t created those links under your restriction.
+
+OPERATOR SETUP CLARIFICATION — UI read receipt 5:30 PM:
+Setup clarification for this excluded practice task: you may export or attach private copies of state.json and note.md into this same task so I can inspect them. That private task attachment is within scope. Keep the working originals in PRACTICE-DOTS-ARTIFACT. Do not publish links publicly, contact anyone, read other apps, or create schedules. Please attach the actual saved files now.
+
+DOTS ACKNOWLEDGMENT:
+I’ll attach private copies of both files here and keep the originals in PRACTICE-DOTS-ARTIFACT.
+
+SETUP OBSERVATION:
+The initial folder-only restriction was interpreted as prohibiting file export. Permit private task attachments explicitly in matched setup prompts and scored protocol. This is setup repair, not a scored model failure. File contents/updates remain to be independently inspected before qualifying the artifact route.
+
+BASELINE ATTACHMENT INSPECTION:
+Dots returned actual attachment buttons for state.json and note.md.
+Opened state.json in the application's file viewer. Visible saved-file contents:
+{ "blue_blocks" : 4 , "red_blocks" : 2 , "status" : "draft" }
+Opened note.md in the application's file viewer. Visible contents:
+# Practice block counts
+The state records 4 blue blocks and 2 red blocks. The status is "draft", meaning this is a draft state.
+These observations came from the separate file viewer, not merely the assistant response.
+
+UPDATE MESSAGE:
+The owner has approved reducing blue_blocks to 3. Keep red_blocks and status unchanged. Update both saved files in PRACTICE-DOTS-ARTIFACT, preserve the old values in a short history note in note.md, and return their locations with fresh private attachments of the actual updated files. Continue using only this synthetic folder; do not read connected apps, contact anyone, publish publicly, or create schedules.
+
+Updated attachments pending at this record stage. The baseline file route is observable; no conclusion about the update yet.
+
+UPDATE RESULT — independently inspected by 2026-10-04 12:04:38 UTC:
+The update message received a UI read receipt at 5:33 PM Asia/Kolkata.
+Dots returned fresh state.json and note.md attachment buttons.
+Opened the new state.json in the file viewer. Visible contents:
+{ "blue_blocks" : 3 , "red_blocks" : 2 , "status" : "draft" }
+Opened the new note.md in the file viewer. Visible contents:
+# Practice block counts
+The state records 3 blue blocks and 2 red blocks. The status is "draft", meaning this is a draft state.
+## History
+Changed blue_blocks from 4 to 3. Previous values: {"blue_blocks":4,"red_blocks":2,"status":"draft"}. red_blocks and status are unchanged.
+
+CONCLUSION LIMITED TO SETUP:
+This Dots instance can create private study artifacts, expose inspection copies, revise the intended value, and preserve history in this simple practice task after explicit private-export permission. Saved attachment contents were inspected separately from the chat response. The cloud-original/attachment byte identity was not independently hashed. No native schedule was tested; no Cedar episode was run; no Dots-versus-Muse result exists. Keep the corrected export permission identical for both products' remaining preflight. The broader baseline ability is not evidence of reliable performance on the scored suite.

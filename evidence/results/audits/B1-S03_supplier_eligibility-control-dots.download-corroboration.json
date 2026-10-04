@@ -1,0 +1,33 @@
+{
+  "episode_id": "B1-S03_supplier_eligibility-control-dots",
+  "project_id": "CEDAR-001",
+  "reviewer": "alternative_topics",
+  "reviewed_at_utc": "2026-10-04T13:05:19.884143+00:00",
+  "protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "type": "later_download_corroboration_of_previously_inspected_attachments",
+  "comparisons": {
+    "baseline": {
+      "parsed_json_equal": true,
+      "entire_plan_text_equal_after_markdown_whitespace_normalization": true,
+      "download_hashes_match_provenance": true,
+      "original_transcription": "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124713586680Z_note.txt",
+      "downloaded_json": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-decision.download.json",
+      "downloaded_plan": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-plan.download.md",
+      "provenance": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-downloads.provenance.json"
+    },
+    "update": {
+      "parsed_json_equal": true,
+      "entire_plan_text_equal_after_markdown_whitespace_normalization": true,
+      "download_hashes_match_provenance": true,
+      "original_transcription": "evidence/B1-S03_supplier_eligibility-control-dots/20261004T125131351358Z_note.txt",
+      "downloaded_json": "evidence/B1-S03_supplier_eligibility-control-dots/update-decision.download.json",
+      "downloaded_plan": "evidence/B1-S03_supplier_eligibility-control-dots/update-plan.download.md",
+      "provenance": "evidence/B1-S03_supplier_eligibility-control-dots/update-downloads.provenance.json"
+    }
+  },
+  "normalization_method": "Remove Markdown heading/list prefixes and emphasis/code delimiters; collapse whitespace. Parsed JSON is compared structurally. Entire plan text matches under this presentation-only normalization, not just selected excerpts.",
+  "finding": "Both actual downloaded baseline/update attachments corroborate the earlier rendered transcriptions. No substantive difference or scoring discrepancy found.",
+  "preserved": "Earlier phase timestamps, transcriptions, baseline/final audits, normalization, and verdict are unchanged. Later download time is not substituted for observed completion time.",
+  "limits": "Attachment-byte hashes do not independently establish cloud working-original identity or hidden execution time.",
+  "discrepancies": []
+}

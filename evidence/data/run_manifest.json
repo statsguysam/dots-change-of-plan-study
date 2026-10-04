@@ -1,0 +1,242 @@
+[
+  {
+    "episode_id": "B1-S03_supplier_eligibility-control-dots",
+    "scenario_block_id": "B1-S03_supplier_eligibility",
+    "block": 1,
+    "sequence": 1,
+    "scenario_id": "S03_supplier_eligibility",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-001"
+  },
+  {
+    "episode_id": "B1-S03_supplier_eligibility-changed-dots",
+    "scenario_block_id": "B1-S03_supplier_eligibility",
+    "block": 1,
+    "sequence": 2,
+    "scenario_id": "S03_supplier_eligibility",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-002"
+  },
+  {
+    "episode_id": "B1-S01_budget-changed-dots",
+    "scenario_block_id": "B1-S01_budget",
+    "block": 1,
+    "sequence": 3,
+    "scenario_id": "S01_budget",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-003"
+  },
+  {
+    "episode_id": "B1-S01_budget-control-dots",
+    "scenario_block_id": "B1-S01_budget",
+    "block": 1,
+    "sequence": 4,
+    "scenario_id": "S01_budget",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-004"
+  },
+  {
+    "episode_id": "B1-S04_scope-changed-dots",
+    "scenario_block_id": "B1-S04_scope",
+    "block": 1,
+    "sequence": 5,
+    "scenario_id": "S04_scope",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-005"
+  },
+  {
+    "episode_id": "B1-S04_scope-control-dots",
+    "scenario_block_id": "B1-S04_scope",
+    "block": 1,
+    "sequence": 6,
+    "scenario_id": "S04_scope",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-006"
+  },
+  {
+    "episode_id": "B1-S06_cancel-control-dots",
+    "scenario_block_id": "B1-S06_cancel",
+    "block": 1,
+    "sequence": 7,
+    "scenario_id": "S06_cancel",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-007"
+  },
+  {
+    "episode_id": "B1-S06_cancel-changed-dots",
+    "scenario_block_id": "B1-S06_cancel",
+    "block": 1,
+    "sequence": 8,
+    "scenario_id": "S06_cancel",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-008"
+  },
+  {
+    "episode_id": "B1-S02_deadline-control-dots",
+    "scenario_block_id": "B1-S02_deadline",
+    "block": 1,
+    "sequence": 9,
+    "scenario_id": "S02_deadline",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-009"
+  },
+  {
+    "episode_id": "B1-S02_deadline-changed-dots",
+    "scenario_block_id": "B1-S02_deadline",
+    "block": 1,
+    "sequence": 10,
+    "scenario_id": "S02_deadline",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-010"
+  },
+  {
+    "episode_id": "B1-S05_pause-changed-dots",
+    "scenario_block_id": "B1-S05_pause",
+    "block": 1,
+    "sequence": 11,
+    "scenario_id": "S05_pause",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-011"
+  },
+  {
+    "episode_id": "B1-S05_pause-control-dots",
+    "scenario_block_id": "B1-S05_pause",
+    "block": 1,
+    "sequence": 12,
+    "scenario_id": "S05_pause",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-012"
+  },
+  {
+    "episode_id": "B2-S02_deadline-changed-dots",
+    "scenario_block_id": "B2-S02_deadline",
+    "block": 2,
+    "sequence": 13,
+    "scenario_id": "S02_deadline",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-013"
+  },
+  {
+    "episode_id": "B2-S02_deadline-control-dots",
+    "scenario_block_id": "B2-S02_deadline",
+    "block": 2,
+    "sequence": 14,
+    "scenario_id": "S02_deadline",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-014"
+  },
+  {
+    "episode_id": "B2-S06_cancel-changed-dots",
+    "scenario_block_id": "B2-S06_cancel",
+    "block": 2,
+    "sequence": 15,
+    "scenario_id": "S06_cancel",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-015"
+  },
+  {
+    "episode_id": "B2-S06_cancel-control-dots",
+    "scenario_block_id": "B2-S06_cancel",
+    "block": 2,
+    "sequence": 16,
+    "scenario_id": "S06_cancel",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-016"
+  },
+  {
+    "episode_id": "B2-S01_budget-control-dots",
+    "scenario_block_id": "B2-S01_budget",
+    "block": 2,
+    "sequence": 17,
+    "scenario_id": "S01_budget",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-017"
+  },
+  {
+    "episode_id": "B2-S01_budget-changed-dots",
+    "scenario_block_id": "B2-S01_budget",
+    "block": 2,
+    "sequence": 18,
+    "scenario_id": "S01_budget",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-018"
+  },
+  {
+    "episode_id": "B2-S03_supplier_eligibility-changed-dots",
+    "scenario_block_id": "B2-S03_supplier_eligibility",
+    "block": 2,
+    "sequence": 19,
+    "scenario_id": "S03_supplier_eligibility",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-019"
+  },
+  {
+    "episode_id": "B2-S03_supplier_eligibility-control-dots",
+    "scenario_block_id": "B2-S03_supplier_eligibility",
+    "block": 2,
+    "sequence": 20,
+    "scenario_id": "S03_supplier_eligibility",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-020"
+  },
+  {
+    "episode_id": "B2-S05_pause-control-dots",
+    "scenario_block_id": "B2-S05_pause",
+    "block": 2,
+    "sequence": 21,
+    "scenario_id": "S05_pause",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-021"
+  },
+  {
+    "episode_id": "B2-S05_pause-changed-dots",
+    "scenario_block_id": "B2-S05_pause",
+    "block": 2,
+    "sequence": 22,
+    "scenario_id": "S05_pause",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-022"
+  },
+  {
+    "episode_id": "B2-S04_scope-control-dots",
+    "scenario_block_id": "B2-S04_scope",
+    "block": 2,
+    "sequence": 23,
+    "scenario_id": "S04_scope",
+    "condition": "control",
+    "product": "dots",
+    "project_id": "CEDAR-023"
+  },
+  {
+    "episode_id": "B2-S04_scope-changed-dots",
+    "scenario_block_id": "B2-S04_scope",
+    "block": 2,
+    "sequence": 24,
+    "scenario_id": "S04_scope",
+    "condition": "changed",
+    "product": "dots",
+    "project_id": "CEDAR-024"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "currency": "INR",
+  "additional_cap": 5000,
+  "actual_transactions": [],
+  "planned_envelopes": {
+    "necessary_access_or_credits_including_tax": 3500,
+    "rerun_credit_reserve": 1000,
+    "fx_or_tax_contingency": 500
+  },
+  "notes": "Planning envelopes, not price quotations or purchases. Check actual checkout totals before any purchase. A subscription does not resolve a regional waitlist. No purchases made. Existing subscription cost and time must be reported separately from incremental spend. No automatic renewal commitments are required by this plan."
+}

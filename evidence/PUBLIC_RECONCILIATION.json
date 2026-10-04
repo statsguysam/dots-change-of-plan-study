@@ -1,0 +1,9 @@
+{
+  "identical_results_and_counts": true,
+  "source_analysis_ready": true,
+  "public_analysis_ready": true,
+  "source_protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "public_integrity_sha256": "cc7d6096b0a68f212dc0f2f0d704590666effceb780f109f416c4e2d4d79e6c5",
+  "dry_run": false,
+  "note": "Freeze identities intentionally differ. All episode outcomes, headline counts and resource summaries must otherwise match. A dry run during active collection can report a live-source snapshot difference."
+}

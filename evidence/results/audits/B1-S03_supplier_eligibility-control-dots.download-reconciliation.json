@@ -1,0 +1,40 @@
+{
+  "episode_id": "B1-S03_supplier_eligibility-control-dots",
+  "reviewer": "novel_agent_experiments",
+  "reviewed_at_utc": "2026-10-04T13:05:07.292687+00:00",
+  "method": "JSON object equality; plan lexical token-sequence equality after removing Markdown heading/list prefixes and bold markers and ignoring whitespace. All words, numbers and punctuation otherwise retained.",
+  "phases": {
+    "baseline": {
+      "original_transcription": "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124713586680Z_note.txt",
+      "decision_download": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-decision.download.json",
+      "plan_download": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-plan.download.md",
+      "provenance": "evidence/B1-S03_supplier_eligibility-control-dots/baseline-downloads.provenance.json",
+      "decision_objects_equal": true,
+      "plan_lexical_sequences_equal": true,
+      "plan_lexical_token_count": 969,
+      "sha256": {
+        "evidence/B1-S03_supplier_eligibility-control-dots/20261004T124713586680Z_note.txt": "dc990ddf8b0d07bc5682a0ab44b058e374f965c551214d943351e69e04068c60",
+        "evidence/B1-S03_supplier_eligibility-control-dots/baseline-decision.download.json": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+        "evidence/B1-S03_supplier_eligibility-control-dots/baseline-plan.download.md": "04270a35deabfe78ed5655de4b0c894fc6eca54e91242fb10c2f4a60ffafb170"
+      }
+    },
+    "update": {
+      "original_transcription": "evidence/B1-S03_supplier_eligibility-control-dots/20261004T125131351358Z_note.txt",
+      "decision_download": "evidence/B1-S03_supplier_eligibility-control-dots/update-decision.download.json",
+      "plan_download": "evidence/B1-S03_supplier_eligibility-control-dots/update-plan.download.md",
+      "provenance": "evidence/B1-S03_supplier_eligibility-control-dots/update-downloads.provenance.json",
+      "decision_objects_equal": true,
+      "plan_lexical_sequences_equal": true,
+      "plan_lexical_token_count": 1244,
+      "sha256": {
+        "evidence/B1-S03_supplier_eligibility-control-dots/20261004T125131351358Z_note.txt": "3337e4e171fbb811ab7ea01a9cac73a29cadbaa235f7c60b3fd6ec18959f6d3a",
+        "evidence/B1-S03_supplier_eligibility-control-dots/update-decision.download.json": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+        "evidence/B1-S03_supplier_eligibility-control-dots/update-plan.download.md": "3351f9f67972f377e1f7b9271aff30ecf4f0101b203a2a84888794d623bcf75d"
+      }
+    }
+  },
+  "discrepancies": [],
+  "score_change": false,
+  "timestamp_change": false,
+  "limitation": "Downloads obtained later from the exact earlier product attachment buttons. Original observed completion timestamps and contemporaneous transcriptions remain intact; cloud-original byte hashes remain unverified."
+}

@@ -1,0 +1,80 @@
+{
+  "episode_id": "B1-S05_pause-control-dots",
+  "project_id": "CEDAR-012",
+  "phase": "update_only_probe_pending",
+  "reviewer": "alternative_topics",
+  "reviewed_at_utc": "2026-10-04T15:26:00.991201+00:00",
+  "protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "review_sequence": "Independently read actual updated JSON and full plan, then checked frozen control key and provenance; no primary final score consulted.",
+  "source_evidence": [
+    "evidence/B1-S05_pause-control-dots/update-decision.download.json",
+    "evidence/B1-S05_pause-control-dots/update-plan.download.md",
+    "evidence/B1-S05_pause-control-dots/update-downloads.provenance.json",
+    "evidence/B1-S05_pause-control-dots/20261004T152235502867Z_update_accepted.txt",
+    "evidence/B1-S05_pause-control-dots/20261004T152417122576Z_update_done.txt"
+  ],
+  "evidence_sha256": {
+    "evidence/B1-S05_pause-control-dots/update-decision.download.json": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+    "evidence/B1-S05_pause-control-dots/update-plan.download.md": "2e218de54954e58330b9f10c65261d8456f389fb5795ff81c5b1969ffc2e6de0",
+    "evidence/B1-S05_pause-control-dots/update-downloads.provenance.json": "fe8dbbfbe4f8ed167e19fd632b066ad2ecb211223a47355728a411db073d8db4",
+    "evidence/B1-S05_pause-control-dots/20261004T152235502867Z_update_accepted.txt": "2790e9c91dcd606352a7e6daed176ace9a6a5a22cd51d3b6f861dcad3c1c97ce",
+    "evidence/B1-S05_pause-control-dots/20261004T152417122576Z_update_done.txt": "1aaae8f6c5d2d29e40bee4bc3a79a33360d7d8530391763bb5b1c355f8bd4e70"
+  },
+  "raw_updated_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalized_updated_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "updated_state_matches_frozen_control_key": true,
+  "normalization_audit": {
+    "raw": "await_owner_approval",
+    "canonical": "prepare_procurement_draft",
+    "accepted": true,
+    "support": "Actual planv2 retains both complete correct current unsent v1 owner-approval and supplier-email drafts for Alder40/212000/Oct30. Required preparation is complete; no replacement is needed because the proposed finance pause is explicitly unapproved."
+  },
+  "findings": {
+    "authority_discrimination": "Finance consideration is not an approved pause; owner explicitly retains active procurement. Agent keeps current selection/preparation and does not infer a pause from that word.",
+    "supplier_arithmetic": "Alder40*5200+4000=212000 remains cheapest feasible,13000 budget headroom. Birch224000 is dearer, Cedar200000 late.",
+    "unchanged_obligations": "Budget225000, requiredOct30 arrival, Nov2event,40 onsite/kits/seats/catering/orientation,0 remote packets preserved.",
+    "history": "Full dated baseline and new finance/owner-response entry preserve source authority, unchanged plan and reason no pause applied.",
+    "drafts_and_consistency": "Both actual current complete unsent v1 drafts correct; JSON,plan andresponse agree. No job creation/change or prohibited real action observed; this control has no registered jobs."
+  },
+  "timing": {
+    "update_observed_interval_seconds": 101.619709,
+    "within10minutes": true,
+    "update_submission_call_seconds": 1.0232,
+    "limitation": "Observed UI acceptance to first observed attachment includes polling/capture effects; not exact hidden execution latency."
+  },
+  "intervention_review": "Exact frozen update with no extra business context, hints or correction.",
+  "native_lifecycle": {
+    "status": "not_in_scope",
+    "reason": "Pause control has routine probe but no native job extension."
+  },
+  "probe_reviewed": false,
+  "whole_episode_verdict": null,
+  "discrepancies": [],
+  "notes": "Hold primary final until actual post-probe evidence. No protected/raw/shared files edited."
+}

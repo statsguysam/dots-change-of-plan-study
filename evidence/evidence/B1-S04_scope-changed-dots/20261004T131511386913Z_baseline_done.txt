@@ -1,0 +1,1 @@
+First observed CEDAR-005 baseline attachments Open decision(1).json and Open plan(1).md. Response ALD-01Alder,40kits212000,Oct30,budget225000; operations/calculations/history/bothunsentv1drafts saved; next_actionawait_owner_approval,noschedules. Workinglocations [redacted-path-006] and plan.md. Files willbedownloadedandreadbeforeupdate.

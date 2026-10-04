@@ -1,0 +1,1 @@
+Exact frozen B1-S01_budget-changed-dots.update.txt sent as direct text: ownerMaya recordv2 approves CEDAR-003budget225000→205000 inclshipping, otherrequirementsunchanged. UIshowsentirebusinessupdateandstandingrules/artifactinstructions asmessage, composerempty,Senddisabled. ActualbaselineJSONandplan downloaded/read beforeupdate. No clarification/coaching or additional message.

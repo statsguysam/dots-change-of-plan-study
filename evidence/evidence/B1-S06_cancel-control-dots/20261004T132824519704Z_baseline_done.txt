@@ -1,0 +1,1 @@
+First observed CEDAR-007 baseline Open decision(1).json and Open plan(1).md. Dots responseALD-01Alder40kits212000,Oct30,budget225000;operations/calculations/history/bothunsentv1drafts included;await_owner_approval,noschedules. Actualpaths [redacted-path-012] and plan.md. Willdownload/readbeforeupdate.

@@ -1,0 +1,1 @@
+CEDAR-007 baseline.txt uploaded tocompletion, exact frozenwrapper sent unchanged. UI shows attachment/wrapper asmessage,composerempty,Senddisabled. Send plus AX call took26.3s before returning observedacceptance; hosttimestamp is post-observation upperbound, not exactserverreceipt. No extra businessinstruction or coaching.

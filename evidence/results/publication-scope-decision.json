@@ -1,0 +1,11 @@
+{
+  "decision_date": "2026-10-04",
+  "decision_phase": "After primary review of CEDAR-008, before CEDAR-009 through CEDAR-012 and before either scored native observation is complete",
+  "selected_primary_scope": "The predeclared minimum complete balanced block: 12 episodes, six changed and six control",
+  "selected_native_scope": "Both predeclared block-one changed cancellation and pause observations, including complete due-plus-grace windows",
+  "reason": "Honor the user's as-soon-as-possible preference while completing every scenario family and both native observations. Two mandatory sequential native windows materially extend elapsed time. The optional second block adds repetitions of the same families rather than new family coverage.",
+  "not_an_outcome_stopping_rule": "Finish all 12 block-one episodes regardless of their remaining outcomes. Preserve every failure, unresolved outcome and exclusion. Do not stop early for success or rerun for a preferred result.",
+  "block_two_status": "Not run; retained in the original frozen target manifest and explicitly excluded from completed-study headline counts",
+  "frozen_protocol_changed": false,
+  "basis": "Frozen configuration permits a 12-episode minimum and a 24-episode target. Publication uses actual completed repetitions."
+}

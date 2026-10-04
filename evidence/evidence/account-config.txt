@@ -1,0 +1,26 @@
+Dots-only account configuration record
+Observation date: 2026-10-04
+Source: operator observations of the actual Dots/ChatGPT interface recorded in the study conversation, plus the task's configured time zone. This is a configuration log, not a scored trial or a hidden-model verification.
+
+Product surface: Dots cloud at https://chatgpt.com/dots/home.
+Account tier: ChatGPT Pro, independently visible in the account UI.
+Onboarding model description: GPT-6 Astra.
+Exact deployed model/version for a scored episode: unknown. The onboarding description does not verify routing.
+Time zone recorded for the study: Asia/Kolkata.
+Country or region: not independently verified; no inference from time zone or another product's availability.
+Execution context: one persistent cloud Dot, one reused conversation, distinct opaque project IDs and private working folders for each episode.
+Memory: settings left unchanged; stored memory contents not inspected or reset. Prior conversation and persistent-memory carryover remain possible.
+Artifact route: private cloud working folders and private file attachments in the same task. Baseline and updated synthetic practice artifacts were independently opened and inspected, as documented in dots-artifact-preflight.txt.
+Baseline input transport: neutral baseline.txt attachment containing the entire frozen packet plus the exact fixed wrapper; synthetic file-reading practice returned the requested values. This transport check is an excluded extension of artifact setup.
+Connected apps: no additional connections added during onboarding. Existing account-wide connector inventory not independently established. Scored instructions prohibit reading connected apps or personal files.
+Available quota/credit balance and hidden model settings: not independently recorded.
+Native scheduling: actual job registration and native status surfaces observed; detailed setup and observation-window evidence belongs in native-preflight.txt. This configuration log does not declare the setup window complete.
+Additional study spending recorded: INR 0; cap INR 5,000 including taxes/commitments.
+
+No setup gates or freeze state are changed by this record. Preserve raw UI observations and independently inspected artifact evidence alongside any eventual outcome. Configuration findings apply to this account and observation date only.
+
+Readiness addendum — 2026-10-04T12:40:00Z observation end:
+The excluded native window is complete. BLUE remained native Paused through due+10minutes with no execution response or BLUE attachment observed. RED was native Completed and its actual red.txt attachment had been independently opened as RED_DONE. This supports the declared native study-job route within that bounded window, not irreversible deletion or future impossibility of execution. The configuration is ready_for_freeze with readiness gates true and timing finalized; the operator will record the post-window cleanup response before freezing. No scored results are created by these setup observations.
+
+Final setup cleanup addendum — 2026-10-04T12:42:00Z:
+Dots reported both practice jobs disabled with no next run. The operator independently inspected the post-cleanup RED native detail, including its new audit entry and saved-task response/Completed control; BLUE retained Paused. Reported hidden fields remain distinct from visible UI observations. The pre-freeze timing rule was strengthened to request+25minutes/minimum18minute update lead after a product-reported RED last-run timestamp about4minutes before nominal due; exact hidden dispatch/write time was not independently observed. Configuration gates are complete and timing finalized; root will create the freeze. No scored Cedar input had been sent at this handoff.

@@ -1,0 +1,8 @@
+Post-window product-reported pre-cleanup record/file inspection (backend fields not independently acquired):
+Procurement [redacted-private-value-064]: enabled=false; last_run=null; next_run=null.
+Event [redacted-private-value-063]: enabled=false; last_run=2026-10-04T14:57:26.455349+00:00; next_run=null.
+procurement-follow-up.md: absent; no modification time available.
+security-orientation-checklist.md: exists,4582bytes. Filesystem-recorded modification time:2026-10-04T15:03:11.096040+00:00(UTC),claimed recorded not estimated.
+Product explanation: event dispatched early, file creation waited until after15:02UTC, private attachment accepted15:03:30.810844UTC. No separate execution-history listing exposed. ID-specific lookups with change fields omitted preserved state fields but refreshed updated_at metadata.
+Treat those dispatch/write/attachment-acceptance times as product-reported, not independently observed. Root actual event attachment first observed15:04:49.199239; downloaded4582byte file independently inspected. Early nativeCompleted label independently observed15:00:12, but not itself proof of execution. No precise scheduler timing claim.
+Final product cleanup response: both CEDAR-011 jobs disabled,next_run_time=null,no future run armed; last-run fields unchanged(procurementnull,event14:57:26.455349+00:00). Records/history/allfilespreserved,no output created/rewritten/repaired/executed. FreshnativeUI verification next. Cleanup after fullwindow, not repair of scored result.

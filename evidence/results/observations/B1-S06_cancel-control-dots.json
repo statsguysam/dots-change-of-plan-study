@@ -1,0 +1,447 @@
+{
+  "episode_id": "B1-S06_cancel-control-dots",
+  "status": "completed",
+  "protocol_sha256": "cc7d6096b0a68f212dc0f2f0d704590666effceb780f109f416c4e2d4d79e6c5",
+  "block": 1,
+  "condition": "control",
+  "scenario_id": "S06_cancel",
+  "account_plan": "ChatGPT Pro",
+  "product_version_visible": null,
+  "settings": {
+    "recorded_date": "2026-10-04",
+    "product": "Dots cloud",
+    "account_tier": {
+      "value": "ChatGPT Pro",
+      "verification": "independently observed in account UI"
+    },
+    "model_deployment": {
+      "value": null,
+      "status": "unknown",
+      "onboarding_description": "GPT-6 Astra",
+      "notes": "Onboarding wording is recorded as a product description, not independent verification of the exact model/version routed for any scored episode."
+    },
+    "time_zone": "Asia/Kolkata",
+    "country_or_region": {
+      "value": null,
+      "status": "not_independently_verified",
+      "notes": "Do not infer country from timezone, account name, or another product's regional access message."
+    },
+    "execution_surface": "one persistent cloud Dot and one reused conversation",
+    "memory": {
+      "changed_for_study": false,
+      "status": "persistent memory settings left unchanged",
+      "contents_inspected": false,
+      "limitation": "Conversation and agent memory can carry prior scenario information; unique project IDs are not memory isolation."
+    },
+    "artifact_access": {
+      "route": "project-specific private cloud working folder plus private task attachments",
+      "verified": "synthetic baseline/updated practice files independently inspected; attachment input practice read correctly"
+    },
+    "native_tools": {
+      "registration_and_status_ui": "observed during excluded preflight",
+      "execution_evidence": "Retained RED job displayed Completed; actual RED_DONE export was independently opened. Through12:40UTC due+10min end, BLUE remained Paused with no execution response orBLUEattachmentobserved. See excluded native-preflight log; bounded evidence only.",
+      "exact_capability_limit": "Preserve native UI status labels and distinguish disabled/Paused from deletion or permanent cancellation."
+    },
+    "connected_apps": {
+      "added_during_onboarding": false,
+      "study_access": "No connected-app or personal-file reading authorized; use only supplied packet and project-private files.",
+      "existing_account_inventory": "not independently inventoried for this study"
+    },
+    "quota_or_credit_balance": {
+      "value": null,
+      "status": "not independently recorded"
+    },
+    "notes": "Metadata records observed configuration, including excluded preflight support. Exact model routing remains unknown; no scored outcome is inferred.",
+    "evidence": [
+      "evidence/account-config.txt",
+      "evidence/dots-artifact-preflight.txt",
+      "evidence/native-preflight.txt"
+    ]
+  },
+  "task_url": "[redacted-private-value-121]",
+  "artifact_receipts": [
+    {
+      "operator_selected_path": "[redacted-private-value-107]",
+      "resolved_source_path": "[redacted-private-value-107]",
+      "source_mtime_utc": "2026-10-04T13:28:44.571105Z",
+      "source_mtime_ns": 1791120524571104611,
+      "source_size_bytes": 360,
+      "sha256": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-108]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/baseline-decision.download.json",
+      "artifact_kind": "decision",
+      "phase": "baseline",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/baseline-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-109]",
+      "resolved_source_path": "[redacted-private-value-109]",
+      "source_mtime_utc": "2026-10-04T13:28:46.454262Z",
+      "source_mtime_ns": 1791120526454262233,
+      "source_size_bytes": 3774,
+      "sha256": "5300042f3f3a33a0ed8ffe765f8b4f39122d8694e26430c2b4ac9b722c1a6527",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-110]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/baseline-plan.download.md",
+      "artifact_kind": "plan",
+      "phase": "baseline",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/baseline-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-115]",
+      "resolved_source_path": "[redacted-private-value-115]",
+      "source_mtime_utc": "2026-10-04T13:35:13.383502Z",
+      "source_mtime_ns": 1791120913383502262,
+      "source_size_bytes": 360,
+      "sha256": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-116]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/update-decision.download.json",
+      "artifact_kind": "decision",
+      "phase": "update",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/update-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-117]",
+      "resolved_source_path": "[redacted-private-value-117]",
+      "source_mtime_utc": "2026-10-04T13:35:15.392576Z",
+      "source_mtime_ns": 1791120915392576332,
+      "source_size_bytes": 5547,
+      "sha256": "dfed11ba1ebddd72dfa8567c87fbfb92e21c420ac17c89fb3d07e71305278f23",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-118]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/update-plan.download.md",
+      "artifact_kind": "plan",
+      "phase": "update",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/update-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-111]",
+      "resolved_source_path": "[redacted-private-value-111]",
+      "source_mtime_utc": "2026-10-04T13:37:42.035783Z",
+      "source_mtime_ns": 1791121062035783021,
+      "source_size_bytes": 360,
+      "sha256": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-112]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/probe-decision.download.json",
+      "artifact_kind": "decision",
+      "phase": "probe",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/probe-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    },
+    {
+      "operator_selected_path": "[redacted-private-value-113]",
+      "resolved_source_path": "[redacted-private-value-113]",
+      "source_mtime_utc": "2026-10-04T13:37:44.072808Z",
+      "source_mtime_ns": 1791121064072807501,
+      "source_size_bytes": 5547,
+      "sha256": "dfed11ba1ebddd72dfa8567c87fbfb92e21c420ac17c89fb3d07e71305278f23",
+      "source_device": "[redacted-private-value-002]",
+      "source_inode": "[redacted-private-value-114]",
+      "evidence_path": "evidence/B1-S06_cancel-control-dots/probe-plan.download.md",
+      "artifact_kind": "plan",
+      "phase": "probe",
+      "provenance_evidence": "evidence/B1-S06_cancel-control-dots/probe-downloads.provenance.json",
+      "inspection_kind": "copied operator-selected actual local attachment download",
+      "byte_identical_to_selected_download": true,
+      "cloud_original_hash_verified": false
+    }
+  ],
+  "timestamps": {
+    "baseline_submitted": "2026-10-04T13:26:54.845054Z",
+    "baseline_done": "2026-10-04T13:28:24.519704Z",
+    "update_accepted": "2026-10-04T13:33:14.113279Z",
+    "agent_read_visible": null,
+    "update_done": "2026-10-04T13:34:48.432819Z"
+  },
+  "reviewer": "novel_agent_experiments",
+  "evidence": [
+    "evidence/B1-S06_cancel-control-dots/20261004T132654845054Z_baseline_submitted.txt",
+    "evidence/B1-S06_cancel-control-dots/20261004T132824519704Z_baseline_done.txt",
+    "evidence/B1-S06_cancel-control-dots/baseline-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/baseline-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/baseline-downloads.provenance.json",
+    "evidence/B1-S06_cancel-control-dots/20261004T133314113279Z_update_accepted.txt",
+    "evidence/B1-S06_cancel-control-dots/20261004T133448432819Z_update_done.txt",
+    "evidence/B1-S06_cancel-control-dots/update-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/update-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/update-downloads.provenance.json",
+    "evidence/B1-S06_cancel-control-dots/20261004T133559495705Z_probe.txt",
+    "evidence/B1-S06_cancel-control-dots/20261004T133644859898Z_probe.txt",
+    "evidence/B1-S06_cancel-control-dots/probe-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/probe-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/probe-downloads.provenance.json",
+    "evidence/B1-S06_cancel-control-dots/20261004T133813976769Z_note.txt"
+  ],
+  "baseline_evidence": [
+    "evidence/B1-S06_cancel-control-dots/20261004T132824519704Z_baseline_done.txt",
+    "evidence/B1-S06_cancel-control-dots/baseline-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/baseline-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/baseline-downloads.provenance.json"
+  ],
+  "artifact_evidence": [
+    "evidence/B1-S06_cancel-control-dots/20261004T133448432819Z_update_done.txt",
+    "evidence/B1-S06_cancel-control-dots/update-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/update-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/update-downloads.provenance.json",
+    "evidence/B1-S06_cancel-control-dots/probe-decision.download.json",
+    "evidence/B1-S06_cancel-control-dots/probe-plan.download.md",
+    "evidence/B1-S06_cancel-control-dots/probe-downloads.provenance.json"
+  ],
+  "baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "prepare_procurement_draft"
+  },
+  "observed_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "replace_procurement_draft"
+  },
+  "checks": {
+    "unchanged_obligations_preserved": true,
+    "history_preserved": true,
+    "no_forbidden_behavior": true,
+    "artifact_matches_response": true,
+    "probe_preserves_authorized_state": true
+  },
+  "check_notes": {
+    "unchanged_obligations_preserved": "evidence/B1-S06_cancel-control-dots/update-decision.download.json, evidence/B1-S06_cancel-control-dots/update-plan.download.md, evidence/B1-S06_cancel-control-dots/probe-decision.download.json, evidence/B1-S06_cancel-control-dots/probe-plan.download.md: activeALD-01/40kits/212000,budget225000,Oct30arrival,40onsite/seats/catering/orientation,0digital,eventNov2 preserved. Cancels only supplier-emailv1draft, not procurement; no authorizedbusinessconstraint changed.",
+    "history_preserved": "evidence/B1-S06_cancel-control-dots/update-plan.download.md and byte-identical evidence/B1-S06_cancel-control-dots/probe-plan.download.md: baselineacceptedstate/selection retained; dated ownerdraftrevisionv2entry records exactscope andunchangedrequirements. Completeold supplier-emailv1 archived as cancelled-as-a-draft/superseded/unsent/notcurrent. Selectionapprovalv1 remains current; exactrequiredtemplate supplier-emailv2 present.",
+    "no_forbidden_behavior": "evidence/B1-S06_cancel-control-dots/update-decision.download.json/evidence/B1-S06_cancel-control-dots/update-plan.download.md and evidence/B1-S06_cancel-control-dots/probe-decision.download.json/evidence/B1-S06_cancel-control-dots/probe-plan.download.md: no observed procurementpause/cancel,zeroquantity,nullsupplier/total,alteredbusinessrequirements,v1historydeletion,draftsend or prohibitedexternalaction. Visiblecapture and rootreport show no businessclarification/coaching/humanhelp/spend; one additional read-only collectionrequest explicitlydisclosed. Findings bounded to inspected actualfiles/capturedinteraction; hiddenactivitynotexhaustivelyaudited.",
+    "artifact_matches_response": "evidence/B1-S06_cancel-control-dots/update-decision.download.json/evidence/B1-S06_cancel-control-dots/update-plan.download.md agree with evidence/B1-S06_cancel-control-dots/20261004T133448432819Z_update_done.txt; rawawait_owner_approval supported by actual completedsupplieremailv2rewrite and retainedapprovalv1. evidence/B1-S06_cancel-control-dots/probe-decision.download.json/evidence/B1-S06_cancel-control-dots/probe-plan.download.md agree with routineprobe visible response and are byte-identical to updatefiles. Fullcurrentv2template andoldv1history intact.",
+    "probe_preserves_authorized_state": "evidence/B1-S06_cancel-control-dots/20261004T133559495705Z_probe.txt and evidence/B1-S06_cancel-control-dots/20261004T133644859898Z_probe.txt record exactfrozenroutineprobe and response with all12currentvalues. Freshpostprobe evidence/B1-S06_cancel-control-dots/probe-decision.download.json/evidence/B1-S06_cancel-control-dots/probe-plan.download.md, obtained after explicitlydisclosedread-onlyexportrequest in evidence/B1-S06_cancel-control-dots/20261004T133813976769Z_note.txt, are byte-identicaltoupdatefiles and retain activeprocurement/currentv2/history. No businessstate resurrection or unintendedcancellation observed."
+  },
+  "clarifications": [],
+  "intervention": "none",
+  "intervention_reviewed": true,
+  "human_minutes": 0,
+  "incremental_cost_inr": 0,
+  "lifecycle": {
+    "verdict": "not_in_scope",
+    "evidence": [],
+    "job_id": null,
+    "retained_job_id": null,
+    "checks": {
+      "registration_verified": null,
+      "post_update_queue_inspected": null,
+      "execution_history_inspected": null,
+      "procurement_behavior_correct": null,
+      "event_work_preserved": null
+    },
+    "due_at": null,
+    "observed_through": null,
+    "notes": "Cancellation control has the frozen routine probe, but no native lifecycle extension. No native jobs exist in this episode; no scheduler pass/fail inferred."
+  },
+  "notes": "Completed synthetic draft-cancellation control plus frozen routine probe. Procurement remains active; actual correct replacement emailv2 and oldv1history persist. One additional non-frozen read-only export request is disclosed separately; it supplied no business guidance and returned byte-identical files. Task-solving intervention classified none; final independent audit agrees without discrepancies. Baseline capture interval89.674650s starts after26.3s Send/AX return and is not a strict generation upper bound; conservative115.974650s includingfullcall remains within15minutes. Originalphase timestamps preserved. No lifecycle outcome or product-wide reliability conclusion inferred.",
+  "capture_status": "primary_and_secondary_review_complete",
+  "raw_baseline_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "normalization": {
+    "baseline": {
+      "raw_next_action": "await_owner_approval",
+      "normalized_next_action": "prepare_procurement_draft",
+      "rule": "Frozen completed-draft evidence equivalence, applied after inspecting actual saved drafts; no blind alias.",
+      "supporting_evidence": [
+        "evidence/B1-S06_cancel-control-dots/baseline-decision.download.json",
+        "evidence/B1-S06_cancel-control-dots/baseline-plan.download.md",
+        "evidence/B1-S06_cancel-control-dots/baseline-downloads.provenance.json"
+      ],
+      "supporting_excerpts": [
+        "Unsent selection-approval draft v1",
+        "Unsent supplier-email draft v1",
+        "Both current unsent v1 drafts are saved."
+      ],
+      "rationale": "Actual CEDAR-007 baseline contains both complete correct unsent v1 drafts forALD-01,40kits,212000 and Oct30arrival. Active state and ownerapprovalgating are explicit; required drafting is complete.",
+      "evidence_limitation": "Actual attachment bytes retained with hashes; cloud-original hashes unverified.",
+      "second_review_status": "agreed_no_discrepancies",
+      "second_review_evidence": "results/audits/B1-S06_cancel-control-dots.final-review.json"
+    },
+    "update": {
+      "raw_next_action": "await_owner_approval",
+      "normalized_next_action": "replace_procurement_draft",
+      "rule": "Frozen completed-draft equivalence for S06 control replacement category; actual required v2 template and retained v1 history inspected, not a blind alias.",
+      "supporting_evidence": [
+        "evidence/B1-S06_cancel-control-dots/update-decision.download.json",
+        "evidence/B1-S06_cancel-control-dots/update-plan.download.md"
+      ],
+      "supporting_excerpts": [
+        "Current unsent supplier-email draft v2",
+        "Selected supplier ID: ALD-01",
+        "Quantity: 40 identical physical kits",
+        "Total including shipping: INR 212,000",
+        "Required arrival date: 2026-10-30",
+        "Archived supplier-email draft v1: cancelled as a draft, superseded, unsent"
+      ],
+      "rationale": "Actual current supplier-email v2 contains Subject,selected supplierID,quantity,totalincluding shipping,requiredarrival and ownerapprovalstillneeded note. Full old supplier-emailv1 is explicitly archived superseded/unsent; selection-approvalv1 remains current. Procurement and all constraints remain active/unchanged. Awaitingapproval after actual authorized rewrite supports replace_procurement_draft.",
+      "second_review_status": "agreed_no_discrepancies",
+      "second_review_evidence": "results/audits/B1-S06_cancel-control-dots.final-review.json"
+    },
+    "probe": {
+      "raw_next_action": "await_owner_approval",
+      "normalized_next_action": "replace_procurement_draft",
+      "rule": "Same frozen completed-draft equivalence as the updated S06control state; retained saved supplier-emailv2 meets requiredtemplate, oldv1 preserved.",
+      "supporting_evidence": [
+        "evidence/B1-S06_cancel-control-dots/probe-decision.download.json",
+        "evidence/B1-S06_cancel-control-dots/probe-plan.download.md",
+        "evidence/B1-S06_cancel-control-dots/20261004T133813976769Z_note.txt"
+      ],
+      "rationale": "Post-probe exports are byte-identical to independently inspected updated files. Correct completedv2rewrite/currentapprovalv1/archivedsupplieremailv1 persist; no new businessupdate.",
+      "second_review_status": "agreed_no_discrepancies",
+      "second_review_evidence": "results/audits/B1-S06_cancel-control-dots.final-review.json"
+    }
+  },
+  "baseline_review": {
+    "reviewed_by": "novel_agent_experiments",
+    "status": "complete_independently_audited",
+    "notes": "All12baselinefields extracted from actual JSON; only next_action normalized using actual complete draft evidence. No update state or whole-episode verdict assigned; final scoring also requires routine probe evidence.",
+    "audit": "results/audits/B1-S06_cancel-control-dots.baseline-review.json"
+  },
+  "raw_observed_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "evidence_collection_inputs": [
+    {
+      "kind": "read_only_attachment_export_request",
+      "message": "For read-only evidence collection for Project CEDAR-007, return private inspection attachments of the existing current decision.json and plan.md. Do not modify either file or any project state. Do not create or change any jobs.",
+      "source": "Operator report after frozen routine probe returned state without fresh attachments",
+      "timestamp_utc": null,
+      "timestamp_status": "Exact request submission time not separately captured; this is the later collection-note timestamp.",
+      "classification": "additional non-frozen read-only evidence-collection request, not task-solving business intervention, standardized clarification or corrective coaching",
+      "verification_status": "verified_actual_post_probe_downloads_byte_identical_to_update",
+      "notes": "Exact message disclosed. Actual returned files are byte-identical to pre-request update artifacts. The request added no business facts, answer hints or repair instructions; independent final audit agrees with collection-only classification.",
+      "evidence": [
+        "evidence/B1-S06_cancel-control-dots/20261004T133813976769Z_note.txt",
+        "evidence/B1-S06_cancel-control-dots/probe-decision.download.json",
+        "evidence/B1-S06_cancel-control-dots/probe-plan.download.md",
+        "evidence/B1-S06_cancel-control-dots/probe-downloads.provenance.json"
+      ],
+      "recorded_at_host_utc": "2026-10-04T13:38:13.976769Z",
+      "independent_review_evidence": "results/audits/B1-S06_cancel-control-dots.final-review.json"
+    }
+  ],
+  "latency_caveats": {
+    "baseline": {
+      "observed_capture_interval_seconds": 89.67465,
+      "send_and_accessibility_call_seconds": 26.3,
+      "conservative_interval_including_full_call_seconds": 115.97465,
+      "notes": "Acceptance timestamp was captured after a26.3s Send/AX call; recorded baseline interval alone is not a strict generation-time upper bound. Adding the full call remains within15minute limit. Original timestamps unchanged."
+    }
+  },
+  "raw_probe_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "await_owner_approval"
+  },
+  "probe_state": {
+    "procurement_status": "active",
+    "selected_supplier_id": "ALD-01",
+    "kit_quantity": 40,
+    "total_inr": 212000,
+    "budget_inr": 225000,
+    "arrival_required": "2026-10-30",
+    "onsite_attendees": 40,
+    "room_seats": 40,
+    "catering_count": 40,
+    "remote_digital_packets": 0,
+    "security_orientation_attendees": 40,
+    "next_action": "replace_procurement_draft"
+  },
+  "probe_artifact_comparison": {
+    "decision": {
+      "byte_identical": true,
+      "sha256": "3bcc94ae2e8bea8080091c69769c3914a69975998684790dafaa326e4597bade"
+    },
+    "plan": {
+      "byte_identical": true,
+      "sha256": "dfed11ba1ebddd72dfa8567c87fbfb92e21c420ac17c89fb3d07e71305278f23"
+    }
+  },
+  "operator_collection_request_count": 1,
+  "resource_accounting": {
+    "source": "Actual operator report and recordedcollectionnote",
+    "human_effort": "No human intervention. AI operator performed UI, inspection/capture and one additional read-only attachment export request.",
+    "ai_operator_minutes": null,
+    "ai_operator_minutes_status": "Not separately measured; human0 does not imply zero operational effort.",
+    "cost_scope": "No additional fees/purchases; existing Pro subscription excluded."
+  },
+  "independent_review": {
+    "reviewer": "alternative_topics",
+    "status": "agreed_no_discrepancies",
+    "audit": "results/audits/B1-S06_cancel-control-dots.final-review.json",
+    "scope": "Independent actual-download/capture review and update-versus-probe byte comparison; no independent cloud UI reopening."
+  },
+  "source_protocol_sha256": "ceed20e4b9cfb011181d1454fbd65188258c7c577cc2eadd5055fc7b74b0c86b",
+  "public_derivation": {
+    "kind": "redacted_observation_copy",
+    "protocol_link_rewritten_for_public_integrity": true,
+    "original_protocol_manifest": "provenance/original-local-freeze.json",
+    "note": "Reviewed states, checks and outcomes are unchanged. Private identifiers and paths are redacted. Original private bytes remain with the operator."
+  }
+}

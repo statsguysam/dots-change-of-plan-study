@@ -1,0 +1,24 @@
+{
+  "episode_id": "B1-S05_pause-changed-dots",
+  "project_id": "CEDAR-011",
+  "kind": "actual_native_event_download_ungraded",
+  "captured_at_host_utc": "2026-10-04T15:05:10.306805Z",
+  "source": "Exact local attachment path explicitly selected by operator after observed native-event output download",
+  "freshness_anchor": {
+    "kind": "baseline_submitted",
+    "at_utc": "2026-10-04T14:34:50.758804Z"
+  },
+  "artifact": {
+    "operator_selected_path": "[redacted-private-value-069]",
+    "resolved_source_path": "[redacted-private-value-069]",
+    "source_mtime_utc": "2026-10-04T15:04:59.585826Z",
+    "source_mtime_ns": 1791126299585825932,
+    "source_size_bytes": 4582,
+    "sha256": "ae2dd811d1333993570fad964f8b3afec4e78b616de19f472e40e776de673818",
+    "source_device": "[redacted-private-value-002]",
+    "source_inode": "[redacted-private-value-070]",
+    "evidence_path": "evidence/B1-S05_pause-changed-dots/native-event-output.download.md"
+  },
+  "contains_exact_project_id": true,
+  "limitations": "Copied bytes and hashes bind this evidence to the selected local download, not an unexposed cloud original. File mtime is a stale-file guard, not execution time. This does not verify content correctness, job identity, actual triggering, retained-event success, or absence of procurement execution. Reviewers must inspect native queue/history and actual artifact contents separately."
+}

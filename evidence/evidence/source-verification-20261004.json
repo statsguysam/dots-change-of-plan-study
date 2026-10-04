@@ -1,0 +1,25 @@
+{
+  "accessed_date": "2026-10-04",
+  "purpose": "Publication source verification; not experimental outcome evidence",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/dots/controls",
+      "title": "Control your dot",
+      "supported_claim": "Foreground pause, stopping a delegated task, and disabling a schedule are distinct controls. Inspect active tasks and schedules separately.",
+      "scope": "Documentation, not proof of this account's execution"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/dots/tasks-and-memory",
+      "title": "Tasks and memory",
+      "supported_claim": "Dots uses selected conversation context, relevant ChatGPT memory and its own saved notes. Background tasks can receive different context. A completed run does not itself establish that its requested result was achieved.",
+      "scope": "Motivates context limitations and artifact inspection; no inference about hidden implementation in these episodes"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.33517",
+      "title": "TRACE: Governing Memory Validity in Evolving Multi-Agent Systems",
+      "submitted_date": "2026-09-27",
+      "supported_claim": "The paper studies whether previously valid information remains eligible for action after shared state changes, using returning-agent episodes.",
+      "scope": "Research motivation only. This Dots direct-update case study neither reproduces TRACE nor tests its algorithm or hidden memory mechanisms."
+    }
+  ]
+}
