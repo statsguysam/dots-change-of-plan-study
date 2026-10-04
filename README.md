@@ -1,6 +1,5 @@
 # Dots change of plan study
 
-A study by Salim Shaikh, conducted on 4 October 2026.
 
 Can an AI agent update saved decisions and stop the right pending work when business instructions change? This repository contains a small Dots case study, its analysis and a sanitized evidence bundle. All 12 primary episodes met the complete rubric: **6/6 authorized changes and 6/6 authority/scope controls**.
 
@@ -44,4 +43,3 @@ This was one persistent Dot, one reused conversation and six related scenario fa
 
 AI agents operated the UI and performed separate reviews of actual downloads and recorded observations; structured fields used deterministic checks. This was not independent human validation. Extra read-only export requests and native inspection/cleanup were operational work, with operator effort unmeasured.
 
-Recorded additional spending was **INR 0**, excluding the existing ChatGPT Pro subscription.
