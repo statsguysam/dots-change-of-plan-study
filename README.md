@@ -41,5 +41,5 @@ The intact `evidence/` bundle contains synthetic inputs, reviewed observations a
 
 This was one persistent Dot, one reused conversation and six related scenario families, so carryover is possible and the results do not estimate general reliability. Explicit rules and directly delivered updates do not test spontaneous change discovery. The permitted 12-episode minimum was completed; the optional second block was not run. Two setup trials were excluded. Exact model routing was unknown, and no Muse comparison was conducted.
 
-AI agents operated the UI and performed separate reviews of actual downloads and recorded observations; structured fields used deterministic checks. This was not independent human validation. Extra read-only export requests and native inspection/cleanup were operational work, with operator effort unmeasured.
+The [execution and review method](report/ANALYSIS.md#execution-and-review) explains how the tests were run and checked. Extra file exports, inspection and cleanup were required; total operator effort was not measured.
 

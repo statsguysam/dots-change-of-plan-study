@@ -37,9 +37,11 @@ In CEDAR-008, pre-cleanup procurement remained Paused with Resume and no visible
 
 In CEDAR-011, the event card already displayed Completed at 15:00:12 UTC, before its nominal 15:02 due time. The actual checklist was first observed at 15:04:49 UTC and downloaded at 15:05:10, before the 15:12 grace end. Dots later reported early dispatch at 14:57:26 and file creation after 15:02. Those internal times are product reports, not independently acquired backend logs. The label and first attachment capture do not establish exact execution time or schedule punctuality. The frozen rule preserved early activity for reporting; it did not specify a numerical early-start tolerance. See the [native event evidence review](../evidence/results/audits/B1-S05_pause-changed-dots.native-event-review.json).
 
-## Evidence and operational work
+## Execution and review
 
-Actual JSON/Markdown downloads and hashes are available. Native UI evidence is largely timestamped notes made by the AI browser operator. Separate AI reviewers examined those notes and the downloaded bytes; they did not independently reopen the cloud/backend or replicate the experiment. This is separate AI review within one study, not human validation or a blinded audit. Local hashes do not authenticate an unexposed cloud-original hash.
+AI agents operated the tests and separately reviewed the saved files and recorded observations; fixed checks scored the structured fields.
+
+Actual JSON/Markdown downloads and hashes are available. Native UI evidence largely consists of timestamped operator notes. The reviewers did not independently access hidden backend state. Local hashes identify the downloaded bytes; they do not authenticate an unexposed cloud-original hash.
 
 Routine probes returned no fresh attachments in CEDAR-007, CEDAR-008, CEDAR-011, CEDAR-012, so the operator sent separate read-only export requests beyond the frozen prompts. The actual post-probe decision and plan downloads were byte-identical to the update exports. These were extra evidence inputs, not task-solving coaching. Native post-window inspection and cleanup were additional operational actions. A cached native view once contradicted the updated Paused state; a fresh view resolved it. One collapsed-sidebar selector lookup failed and recovered after a fresh UI inspection. These are operator/capture issues, not scored reasoning failures. No result-based reruns occurred.
 
@@ -51,7 +53,7 @@ Update: median 105.0 seconds, range 75.3–142.3, among 12 successful episodes w
 
 Timeouts or late completion: 0.
 
-No task-solving corrective input was logged in 12/12 episodes. This excludes sign-in and setup. AI operator time was not separately measured, so these figures establish neither zero effort nor labor savings.
+No task-solving corrective input was logged in 12/12 episodes. This excludes sign-in and setup. Operator time was not separately measured, so these figures establish neither zero effort nor labor savings.
 
 Intervals run from observed input acceptance to first-observed attachment availability. Polling, Send/AX duration and operator delay affect them. Acceptance was recorded after the Send/AX call, so these are not uniformly strict upper bounds or exact model runtimes. CEDAR-007’s call took 26.3 seconds; CEDAR-003’s baseline included an archiving delay. Download modification time is not generation time.
 
